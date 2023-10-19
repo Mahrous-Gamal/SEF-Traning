@@ -13,18 +13,27 @@ Before you begin, ensure you have met the following requirements:
 
 * [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-### Run Locally
+### Getting Started
 
-To run **SEF Traning** locally, run this command on your git bash:
+To get started with the website, clone the repo:
 
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/Mahrous-Gamal/SEF-Traning.git
+```
+$ git clone https://github.com/Mahrous-Gamal/SEF-Traning.git
+$ cd SEF-Traning
 ```
 
-```bash
-git clone https://github.com/Mahrous-Gamal/SEF-Traning.git
+Then install the dependencies:
+
+```
+$ npm install
+```
+
+### Running the App
+
+To run the app, start the Expo development server:
+
+```
+$ npm start
 ```
 
 ### Contact
