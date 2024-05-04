@@ -19,7 +19,7 @@ To get started with the website, clone the repo:
 
 ```
 $ git clone https://github.com/Mahrous-Gamal/SEF-Academy-Traning.git
-$ cd SEF-Traning
+$ cd SEF-Academy-Traning
 ```
 
 Then install the dependencies:
