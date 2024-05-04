@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter, RouterProvider, createBrowserRouter, BrowserRouter,Navigate } from 'react-router-dom';
+import { Routes, Route, HashRouter, RouterProvider, createBrowserRouter, Navigate } from 'react-router-dom';
 import Student_Portal from './Pages/Student_Portal/Student_Portal';
 import Instructor_Portal from './Pages/Instructor_Portal/Instructor_Portal'
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -60,7 +60,6 @@ function App() {
   return (
     <>
       {HeaderDisplay}
-      <BrowserRouter>
 
       <Routes>
 
@@ -134,7 +133,7 @@ function App() {
           <Route path="links" element={<Links8Form />} />
         </Route>
       </Routes>
-      </BrowserRouter>
+
 
       {FooterDisplay}
 
