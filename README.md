@@ -18,7 +18,7 @@ Before you begin, ensure you have met the following requirements:
 To get started with the website, clone the repo:
 
 ```
-$ git clone https://github.com/Mahrous-Gamal/SEF-Traning.git
+$ git clone https://github.com/Mahrous-Gamal/SEF-Academy-Traning.git
 $ cd SEF-Traning
 ```
 
