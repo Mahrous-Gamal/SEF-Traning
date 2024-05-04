@@ -60,6 +60,8 @@ function App() {
   return (
     <>
       {HeaderDisplay}
+      <BrowserRouter>
+
       <Routes>
 
         <Route path='/' element={<Home />} />
@@ -132,6 +134,8 @@ function App() {
           <Route path="links" element={<Links8Form />} />
         </Route>
       </Routes>
+      </BrowserRouter>
+
       {FooterDisplay}
 
     </>
