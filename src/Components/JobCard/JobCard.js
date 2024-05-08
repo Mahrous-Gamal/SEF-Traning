@@ -2,12 +2,12 @@ import React from "react";
 // import './JobsCard.css';
 import "./JobCard.css";
 import { Card, Button, Container, Col, Row, Form } from "react-bootstrap";
-import itlogo from "../../assets/images/it.jpg";
+import itlogo from "../../Assets/Images/it.jpg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const JobCard = () => {
   const [Data, setData] = useState(Array.from({ length: 3 }));
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   return (
     <>
       {Data.map((items, index) => (
@@ -40,14 +40,13 @@ const JobCard = () => {
               </div>
             </div>
 
-
-              <p className="col-lg-10 col-12 my-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit. Integer posuere erat a
-                ante.
-              </p>
+            <p className="col-lg-10 col-12 my-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Integer posuere erat a
+              ante.
+            </p>
 
             <div className="d-flex ">
               <Button className="btn2">React Js</Button>
@@ -63,14 +62,16 @@ const JobCard = () => {
                     class="far fa-clock p-2 fs-4"
                     style={{ color: "#e1e1e16e", fontSize: "18px" }}
                   ></i>{" "}
-                <span  className="">2h ago</span>
+                  <span className="">2h ago</span>
                 </span>
               </div>
               <div
                 className="col-lg-4 col-6 mb-0"
                 style={{ textAlign: "right" }}
               >
-                <Button className="btn1"  onClick={()=>navigate('/jobsShow')}>View Details</Button>
+                <Button className="btn1" onClick={() => navigate("/jobsShow")}>
+                  View Details
+                </Button>
               </div>
             </div>
           </Card.Body>

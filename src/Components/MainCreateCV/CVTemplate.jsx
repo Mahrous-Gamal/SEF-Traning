@@ -1,8 +1,5 @@
 import React from "react";
-import egyptFlagImg from "../../Images/Flag_of_Egypt.png";
-import seff_logoImg from "../../Images/seff_logo_black.jpg";
 import { websiteAvailableIcons } from "./data";
-import { FaFacebook } from "react-icons/fa6";
 
 function CVTemplate({ data }) {
 	const main_info = data.main_information;
@@ -49,9 +46,8 @@ function CVTemplate({ data }) {
 									<h6 className="fs-12">{(main_info?.email && main_info?.email) || ""}</h6>
 								</div>
 								<div className="cv-squire-info">
-									<h6 className="fs-12">{`${main_info?.city || ""}, ${
-										main_info?.country || ""
-									}`}</h6>
+									<h6 className="fs-12">{`${main_info?.city || ""}, ${main_info?.country || ""
+										}`}</h6>
 								</div>
 							</div>
 							{/* Skills --------------------------------- */}
@@ -110,13 +106,12 @@ function CVTemplate({ data }) {
 															e.includes(ele?.sitename)
 														) ? (
 															<i
-																className={`fa-brands fa-${
-																	websiteAvailableIcons[
-																		websiteAvailableIcons?.findIndex((e) =>
-																			e.includes(ele?.sitename)
-																		)
+																className={`fa-brands fa-${websiteAvailableIcons[
+																	websiteAvailableIcons?.findIndex((e) =>
+																		e.includes(ele?.sitename)
+																	)
 																	]
-																}  me-2`}
+																	}  me-2`}
 															/>
 														) : (
 															<i className="fa-solid fa-up-right-from-square me-2"></i>

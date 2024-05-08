@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 //bootstrap
 import { Col, Container, Row } from "react-bootstrap";
-import itlogo from "../../../src/assets/images/it.jpg";
+import itlogo from "../../../src/Assets/Images/it.jpg";
 
 //style
 import MenuCheckBoxs from "../menu-checkboxs/MenuCheckBoxs";

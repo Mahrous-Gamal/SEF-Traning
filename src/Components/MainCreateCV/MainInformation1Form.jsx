@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import egyptFlagImg from "../../Images/Flag_of_Egypt.png";
-
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import DragDropImg from "./DragDropImg";
 import { useOutletContext } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 
 function MainInformation1Form() {
 	const [formData, handelChange, , handelChangeMobile] = useOutletContext();

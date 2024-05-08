@@ -1,8 +1,7 @@
 import { FaCloudArrowUp } from "react-icons/fa6";
-
 import React, { useEffect, useState } from "react";
-import uploadImg from "../../Images/upload-img.png";
 import { useDropzone } from "react-dropzone";
+
 
 function DragDropImgSmall({ setImgUrl, index = 0 }) {
 	const [files, setFiles] = useState([]);

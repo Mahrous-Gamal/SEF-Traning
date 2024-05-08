@@ -1,18 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './create-cv-style.css';
 import { Outlet } from 'react-router-dom';
-
 import HeaderTitle from '../../Components/Global/HeaderTitle';
 import CreateCVStipper from '../../Components/MainCreateCV/CreateCVStipper';
 import BackAndContinueBtns from '../../Components/MainCreateCV/BackAndContinueBtns';
 import CustomizeYourCv from '../../Components/MainCreateCV/CustomizeYourCv';
 import CVTemplate from '../../Components/MainCreateCV/CVTemplate';
-import {
-  formDataFiled,
-  initialformData,
-} from '../../Components/MainCreateCV/data';
+import {initialformData} from '../../Components/MainCreateCV/data';
 import { jsPDF } from 'jspdf';
-import TopNav_Admin from '../../Components/TopNav_admin/TopNav_Admin';
+
 
 function NewCreateCVPage() {
   const [formData, setFormData] = useState(

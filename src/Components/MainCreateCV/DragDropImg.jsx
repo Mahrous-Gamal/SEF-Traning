@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import uploadImg from "../../Images/upload-img.png";
 import { useDropzone } from "react-dropzone";
 import { FaCloudArrowUp } from "react-icons/fa6";
 

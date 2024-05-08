@@ -1,6 +1,6 @@
 import React from "react";
 import "./Courses.css";
-import im2 from "../../assets/images/Rectangle 66.png";
+import im2 from "../../Assets/Images/Rectangle 66.png";
 import TopNav_student from "../../Components/TopNav-student-portal/TopNav_student";
 
 //   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
